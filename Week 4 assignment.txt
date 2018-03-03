@@ -1,0 +1,18 @@
+A) On running the code it was observed that keeping the value of parameter k as odd, the results were much more accurate as  compared to that of taking k as even.
+ It is advisible to take odd values for binary classification to avoid the ties i.e. two classes labels achieving the same  score.
+
+B)Drwabacks of knn
+1)Large search problem to find nearest neighbours
+2)Storage of data
+3)Must know we have a meaningful distance function
+4)Need to determine value of parameter k(no. of nearest neighbours). 
+
+
+C)Recall and precision
+Recall can be defined as the ratio of no. of events a person can correctly recall to all correct all events.
+Precision can be defined as ratio of events you can correctly recall (events that your machine correctly predicts) to a number of all events you can recall (mix of correct and wrong recalls)
+An F score is defined which is the harmonic mean of recall(R) and precision(P).
+Mathematically,
+						F=2PR/(P+R)
+
+
